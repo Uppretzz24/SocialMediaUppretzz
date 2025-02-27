@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratatuli website test by Uppretzz</title>
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
+    <style>
+        /* Background dengan gradasi */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            background: linear-gradient(135deg, #491E17, #929292);
+            font-family: 'Minecraft', sans-serif;
+        }
+
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('fonts/Minecraft.ttf') format('truetype');
+        }
+
+        /* Styling container biar semua elemen tetap di tengah */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+
+        /* Styling logo */
+        .logo {
+            width: 200px;
+            max-width: 90%;
+            display: block;
+            margin-bottom: 20px; /* Biar ada jarak dengan foto profil */
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            display: block;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-top: 30px; /* Supaya ada jarak dari logo */
+        }
+
+        /* Nama di bawah foto profil */
+        .profile-name {
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+            margin-top: 10px;
+        }
+
+        /* Styling tombol */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 18px;
+            color: white;
+            border-radius: 50px;
+            font-weight: bold;
+        }
+
+        /* Custom ukuran tiap tombol + jarak antar tombol */
+        .btn.youtube {
+            background-color: #CA1400;
+            width: 80%;
+            max-width: 450px;
+            padding: 10px; /* Ukuran padding tombol YouTube */
+            font-size: 20px;
+            margin: 10px 0; /* Tambahin jarak antar tombol */
+        }
+
+        .btn.tiktok {
+            background-color: #000000;
+            width: 80%;
+            max-width: 450px;
+            padding: 10px; /* Ukuran padding tombol TikTok */
+            font-size: 20px;
+            margin: 10px 0; /* Tambahin jarak antar tombol */
+        }
+
+        .btn.discord {
+            background-color: #5865F2;
+            width: 80%;
+            max-width: 450px;
+            padding: 10px; /* Ukuran padding tombol Discord */
+            font-size: 20px;
+            margin: 10px 0; /* Tambahin jarak antar tombol */
+        }
+
+        .footer-text {
+            font-size: 16px;
+            color: white;
+            margin-top: 40px;
+            text-align: center;
+            opacity: 0.8;
+        }
+
+        /* Styling icon biar bisa diatur satu per satu */
+        .youtube-icon {
+            width: 45px; /* Ukuran icon YouTube */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .tiktok-icon {
+            width: 30px; /* Ukuran icon TikTok */
+            height: auto;
+            margin-right: 10px;
+        }
+
+        .discord-icon {
+            width: 36px; /* Ukuran icon Discord */
+            height: auto;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Logo di atas foto profil -->
+        <img src="https://i.ibb.co.com/HkLfqpy/minecraft-title.png" alt="Uppretzz Web Test" class="logo">
+
+        <!-- Foto Profil -->
+        <img src="https://i.ibb.co.com/ZzMmGDVV/aac2182acb174ddc89629471f9d18947.jpg" alt="Foto Profil" class="profile-img">
+
+        <!-- Nama di bawah foto profil -->
+        <p class="profile-name">Uppretzz
+        (chef ratatuli)</p>
+
+        <!-- Tombol Sosial Media -->
+        <a href="https://youtube.com/@uppretzz?si=Kdrc6fHVkXasMQiB" target="_blank" class="btn youtube">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" 
+                 alt="YouTube" class="youtube-icon">
+            YouTube
+        </a>
+
+        <a href="https://www.tiktok.com/@realuppretzz?_t=ZS-8uFoKamuLKS&_r=1" target="_blank" class="btn tiktok">
+            <img src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338432_1280.png" 
+                 alt="TikTok" class="tiktok-icon">
+            TikTok
+        </a>
+
+        <a href="https://discord.com/invite/Jk9nUDj635" target="_blank" class="btn discord">
+            <img src="https://i.ibb.co.com/X17ytWD/erasebg-transformed.png" 
+                 alt="Discord" class="discord-icon">
+            Discord
+        </a>
+
+        <p class="footer-text">Yooo, halo bang saya umpret, aku cuman pengen nge test website doang🗿</p>
+    </div>
+
+</body>
+</html>
